@@ -15,22 +15,14 @@ El objetivo es demostrar habilidades prácticas en QA manual, automatización, m
 
 ---
 
-## Casos de prueba manuales
+## Casos de prueba 
 
-Aquí se listan los casos de prueba manuales desarrollados para la funcionalidad de transferencias bancarias en una app web.
+En este repositorio encontrarás un conjunto de casos de prueba manuales diseñados para validar la funcionalidad de transferencias bancarias desde una aplicación web.
 
-| Caso # | Título                                   | Descripción breve                                          | Resultado esperado                         |
-|--------|-----------------------------------------|------------------------------------------------------------|--------------------------------------------|
-| 1      | Transferencia exitosa                    | Transferir monto válido a cuenta válida                     | Transferencia completada correctamente     |
-| 2      | Transferencia con saldo insuficiente    | Intentar transferir monto mayor que saldo                   | Mensaje de error de saldo insuficiente     |
-| 3      | Transferencia a cuenta inválida          | Transferir a cuenta no registrada o inválida                | Mensaje de error de cuenta no válida       |
-| 4      | Transferencia sin autenticación          | Intentar transferir sin iniciar sesión                       | Redirección a login                         |
-| 5      | Transferencia con campo monto vacío      | Enviar formulario con monto vacío                            | Mensaje de error de campo obligatorio      |
-| 6      | Transferencia con caracteres no numéricos en monto | Ingresar letras en monto                                     | Mensaje de error de formato inválido       |
-| 7      | Transferencia a cuenta con bloqueo       | Transferir a cuenta bloqueada                                | Mensaje de cuenta bloqueada                 |
-| 8      | Verificación de registro de transferencia| Confirmar que la transferencia quede registrada en historial| Transferencia registrada correctamente      |
-| 9      | Transferencia a múltiples destinatarios  | Transferir a varias cuentas en una sola operación            | Todas las transferencias completadas        |
-| 10     | Transferencia con límite diario excedido| Intentar transferir monto que supera el límite diario        | Mensaje de límite excedido                   |
+Estos casos incluyen diferentes tipos de pruebas funcionales que cubren escenarios positivos y negativos, asegurando la calidad del sistema y su comportamiento esperado.
+
+El archivo principal con los casos está en: [CasosDePrueba.md](./CasosDePrueba.md)
+
 
 ---
 
